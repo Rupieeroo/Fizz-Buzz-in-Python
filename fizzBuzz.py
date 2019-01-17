@@ -1,11 +1,11 @@
 class FizzBuzz(object):
     def __init__(self, number):
         if FizzBuzz.is_valid_number(number):
-            self.number = 1
+            self.number = number
 
     @property
     def result(self):
-        return 1
+        return self.number
 
     @staticmethod
     def is_valid_number(number):
