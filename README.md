@@ -6,9 +6,10 @@ My attempt learn how to use and test drive development in Python with the simple
 
 ``
 Number of tests: 11
+``
+``
 Number of tests passed: 11
 ``
-
 ## TDD Steps
 
 1.) Having installed Python 3.7 and Pytest, I set u a file named 'test_sample.py' to check that pytest is linked and is working. Having confirmed this I can begin to test drive the program.
