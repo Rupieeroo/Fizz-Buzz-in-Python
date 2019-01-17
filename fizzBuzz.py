@@ -9,7 +9,7 @@ class FizzBuzz(object):
             return "Fizz"
         elif self.number == 5 or self.number == 10:
             return "Buzz"
-        elif self.number == 15 or self.number == 30:
+        elif self.number % 3 == 0 and self.number % 5 == 0:
             return "FizzBuzz"
         return self.number
 
