@@ -5,7 +5,7 @@ class FizzBuzz(object):
 
     @property
     def result(self):
-        if self.number == 3 or self.number == 6:
+        if self.number % 3 == 0:
             return "Fizz"
         elif self.number % 3 == 0 and self.number % 5 == 0:
             return "FizzBuzz"
