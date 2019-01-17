@@ -3,6 +3,10 @@ class FizzBuzz(object):
         if FizzBuzz.is_valid_number(number):
             self.number = 1
 
+    @property
+    def result(self):
+        return 1
+
     @staticmethod
     def is_valid_number(number):
         if number <= 0 or number > 100:
