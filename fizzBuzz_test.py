@@ -34,3 +34,6 @@ class FizzBuzzTest(unittest.TestCase):
 
     def test_15_returns_FizzBizz(self):
         assert FizzBuzz(15).result == "FizzBuzz"
+
+    def test_30_returns_FizzBizz(self):
+        assert FizzBuzz(30).result == "FizzBuzz"
