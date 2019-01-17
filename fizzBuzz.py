@@ -7,10 +7,10 @@ class FizzBuzz(object):
     def result(self):
         if self.number == 3 or self.number == 6:
             return "Fizz"
-        elif self.number % 5 == 0:
-            return "Buzz"
         elif self.number % 3 == 0 and self.number % 5 == 0:
             return "FizzBuzz"
+        elif self.number % 5 == 0:
+            return "Buzz"
         return self.number
 
     @staticmethod
