@@ -5,6 +5,8 @@ class FizzBuzz(object):
 
     @property
     def result(self):
+        if self.number == 3:
+            return "Fizz"
         return self.number
 
     @staticmethod
