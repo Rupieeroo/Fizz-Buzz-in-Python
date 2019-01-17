@@ -13,3 +13,6 @@ class FizzBuzzTest(unittest.TestCase):
     def test_101_raises_value_error(self):
         with self.assertRaises(ValueError):
             FizzBuzz(101)
+
+    def test_1_returns_1(self):
+        assert FizzBuzz(1).result == 1
