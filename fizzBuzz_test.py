@@ -9,3 +9,6 @@ class FizzBuzzTest(unittest.TestCase):
 
     def test_1_does_not_raise_value_error(self):
         assert FizzBuzz(1).number == 1
+
+    def test_1_does_not_raise_value_error(self):
+        assert FizzBuzz(2).number == 2
