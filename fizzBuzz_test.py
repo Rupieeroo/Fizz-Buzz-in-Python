@@ -24,4 +24,4 @@ class FizzBuzzTest(unittest.TestCase):
         assert FizzBuzz(3).result == "Fizz"
 
     def test_5_returns_Buzz(self):
-        assert FizzBuzz(3).result == "Buzz"
+        assert FizzBuzz(5).result == "Buzz"
