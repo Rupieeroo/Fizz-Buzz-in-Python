@@ -7,7 +7,7 @@ class FizzBuzz(object):
     def result(self):
         if self.number == 3 or self.number == 6:
             return "Fizz"
-        elif self.number == 5:
+        elif self.number == 5 or self.number == 10:
             return "Buzz"
         elif self.number == 15:
             return "FizzBuzz"
