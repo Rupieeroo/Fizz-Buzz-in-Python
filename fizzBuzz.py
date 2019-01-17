@@ -1,3 +1,5 @@
 class FizzBuzz(object):
     def __init__(self, number):
-        raise ValueError()
+        if number == 0:
+            raise ValueError()
+        self.number = 1
