@@ -19,3 +19,6 @@ class FizzBuzzTest(unittest.TestCase):
 
     def test_2_returns_2(self):
         assert FizzBuzz(2).result == 2
+
+    def test_3_returns_3(self):
+        assert FizzBuzz(3).result == 3
