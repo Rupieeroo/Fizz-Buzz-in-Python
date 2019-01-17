@@ -9,6 +9,8 @@ class FizzBuzz(object):
             return "Fizz"
         elif self.number == 5:
             return "Buzz"
+        elif self.number == 15:
+            return "FizzBuzz"
         return self.number
 
     @staticmethod
